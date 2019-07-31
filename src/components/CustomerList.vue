@@ -51,7 +51,7 @@
       >
 
         <template slot="items" slot-scope="props" >
-          <td>{{ props.item.cust_number }}</td>
+          <td>{{ props.item.pk}}</td>
           <td>{{ props.item.name }}</td>
           <td nowrap="true">{{ props.item.address }}</td>
           <td nowrap="true">{{ props.item.city }}</td>
